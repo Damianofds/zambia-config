@@ -1,0 +1,20 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl-2de1e72d:14021a35308:-8000</id>
+  <name>blue_marble</name>
+  <description>blue_marble</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-26d83288:1401bfa07e9:-8000</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <capabilitiesURL>http://rdc-snsf.org/stg_geoserver/ows?service=wms&amp;version=1.3.0&amp;request=GetCapabilities</capabilitiesURL>
+  <user>admin</user>
+  <password>1geoserver9</password>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>

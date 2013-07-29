@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-26d83288:1401bfa07e9:-7ff5</id>
+  <name>Nat_Parks_GMAs</name>
+  <nativeName>Nat_Parks_GMAs</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>Nat_Parks_GMAs</title>
+  <keywords>
+    <string>features</string>
+    <string>Nat_Parks_GMAs</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>21.9993710054626</minx>
+    <maxx>33.7056999944916</maxx>
+    <miny>-17.9273612991542</miny>
+    <maxy>-8.25099188760738</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>21.9993710054626</minx>
+    <maxx>33.7056999944916</maxx>
+    <miny>-17.9273612991542</miny>
+    <maxy>-8.25099188760738</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

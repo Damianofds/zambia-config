@@ -1,0 +1,16 @@
+<layer>
+  <name>blue_marble</name>
+  <id>LayerInfoImpl-2de1e72d:14021a35308:-7ffe</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl-2de1e72d:14021a35308:-7fff</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

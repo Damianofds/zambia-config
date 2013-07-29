@@ -1,0 +1,28 @@
+<dataStore>
+  <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  <name>zambia_reproj</name>
+  <type>PostGIS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-26d83288:1401bfa07e9:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Connection timeout">20</entry>
+    <entry key="port">5432</entry>
+    <entry key="passwd">crypt1:dZIyLOSJy8I3KHsfcvZPtg==</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="host">localhost</entry>
+    <entry key="max connections">10</entry>
+    <entry key="database">zambia</entry>
+    <entry key="namespace">http://zambia</entry>
+    <entry key="schema">zambia</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Max open prepared statements">50</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="Estimated extends">false</entry>
+    <entry key="user">zambia</entry>
+    <entry key="min connections">1</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

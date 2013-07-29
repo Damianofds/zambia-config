@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-26d83288:1401bfa07e9:-7ffd</id>
+  <name>Soils_Zambia</name>
+  <nativeName>Soils_Zambia</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>Soils_Zambia</title>
+  <keywords>
+    <string>features</string>
+    <string>Soils_Zambia</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>21.981764</minx>
+    <maxx>33.703198</maxx>
+    <miny>-18.076473</miny>
+    <maxy>-8.22435000000002</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>21.981764</minx>
+    <maxx>33.703198</maxx>
+    <miny>-18.076473</miny>
+    <maxy>-8.22435000000002</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-26d83288:1401bfa07e9:-7feb</id>
+  <name>village_centres</name>
+  <nativeName>village_centres</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>village_centres</title>
+  <keywords>
+    <string>features</string>
+    <string>village_centres</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>22.2439994812012</minx>
+    <maxx>33.2639999389648</maxx>
+    <miny>-17.7931672513763</miny>
+    <maxy>-8.3650932872699</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>22.2439994812012</minx>
+    <maxx>33.2639999389648</maxx>
+    <miny>-17.7931672513763</miny>
+    <maxy>-8.3650932872699</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

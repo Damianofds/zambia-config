@@ -1,0 +1,53 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-26d83288:1401bfa07e9:-7fef</id>
+  <name>Towns</name>
+  <nativeName>Towns</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>Towns</title>
+  <keywords>
+    <string>features</string>
+    <string>Towns</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>23.111781411904</minx>
+    <maxx>33.1745607398522</maxx>
+    <miny>-17.8599767787616</miny>
+    <maxy>-8.68230687210372</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>23.111781411904</minx>
+    <maxx>33.1745607398522</maxx>
+    <miny>-17.8599767787616</miny>
+    <maxy>-8.68230687210372</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
