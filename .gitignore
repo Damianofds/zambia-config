@@ -1,0 +1,12 @@
+# Binaries #
+*.class
+*.h2.db
+*.lock
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Logs #
+*.log

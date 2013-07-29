@@ -1,0 +1,301 @@
+{
+  "layers": [
+    {
+      "id": "bluemarble",
+      "label": "${blue_marble}",
+      "baseUrl": "http://rdc-snsf.org/diss_geoserver/wms",
+      "wmsName": "common:blue_marble",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "BackgroundLayer"
+    },
+    {
+      "id": "Geology_Zambia",
+      "label": "${zambia_label_Geology_Zambia}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Geology_Zambia",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Geology_Zambia",
+	"queryable": "true"
+    },
+    {
+      "id": "Drainage_network",
+      "label": "${zambia_label_Drainage_network}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Drainage_network",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Drainage network"
+    },
+    {
+      "id": "Vegetation_types",
+      "label": "${zambia_label_Vegetation_types}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Vegetation_types",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Vegetation_types"
+    },
+    {
+      "id": "Soils_Zambia",
+      "label": "${zambia_label_Soils_Zambia}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Soils_Zambia",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Soils_Zambia"
+    },
+    {
+      "id": "Powerlines",
+      "label": "${zambia_label_Powerlines}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Powerlines",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Powerlines"
+    },
+    {
+      "id": "Nat_Parks_GMAs",
+      "label": "${zambia_label_Nat_Parks_GMAs}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Nat_Parks_GMAs",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Nat_Parks_GMAs"
+    },
+    {
+      "id": "Roads_Tracks",
+      "label": "${zambia_label_Roads_Tracks}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Roads_Tracks",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Roads_Tracks"
+    },
+    {
+      "id": "built_up_areas_4326",
+      "label": "${zambia_label_built_up_areas_4326}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:built_up_areas_4326",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "built_up_areas_4326"
+    },
+    {
+      "id": "Zambia_health_facilities",
+      "label": "${zambia_label_Zambia_health_facilities}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Zambia_health_facilities",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Zambia_health_facilities"
+    },
+    {
+      "id": "settlements",
+      "label": "${zambia_label_settlements}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:settlements",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "settlements"
+    },
+    {
+      "id": "village_centres",
+      "label": "${zambia_label_village_centres}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:village_centres",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "village_centres"
+    },
+    {
+      "id": "Towns",
+      "label": "${zambia_label_Towns}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Towns",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Towns"
+    },
+    {
+      "id": "District_boundaries_Zambia",
+      "label": "${zambia_label_District_boundaries_Zambia}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:District_boundaries_Zambia",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "District_boundaries_Zambia"
+    }, 
+  ],
+  
+  "contexts": [
+    {
+      "id": "bluemarble",
+      "active": true,
+      "infoFile": "blueMarble.html",
+      "label": "${blue_marble}",
+      "layers": ["bluemarble"]
+    },
+    {
+      "id": "Towns",
+      "active": true,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Towns}",
+      "layers": ["Towns"]
+    },    
+    {
+      "id": "Geology_Zambia",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Geology_Zambia}",
+      "layers": ["Geology_Zambia"]
+    },    
+    {
+      "id": "Drainage_network",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Drainage_network}",
+      "layers": ["Drainage_network"]
+    },    
+    {
+      "id": "Vegetation_types",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Vegetation_types}",
+      "layers": ["Vegetation_types"]
+    },    
+    {
+      "id": "village_centres",
+      "active": true,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_village_centres}",
+      "layers": ["village_centres"]
+    },    
+    {
+      "id": "Soils_Zambia",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Soils_Zambia}",
+      "layers": ["Soils_Zambia"]
+    },    
+    {
+      "id": "Powerlines",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Powerlines}",
+      "layers": ["Powerlines"]
+    },    
+    {
+      "id": "Nat_Parks_GMAs",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Nat_Parks_GMAs}",
+      "layers": ["Nat_Parks_GMAs"]
+    },    
+    {
+      "id": "Roads_Tracks",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Roads_Tracks}",
+      "layers": ["Roads_Tracks"]
+    },    
+    {
+      "id": "built_up_areas_4326",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_built_up_areas_4326}",
+      "layers": ["built_up_areas_4326"]
+    },   
+    {
+      "id": "Zambia_health_facilities",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_Zambia_health_facilities}",
+      "layers": ["Zambia_health_facilities"]
+    },    
+    {
+      "id": "settlements",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_settlements}",
+      "layers": ["settlements"]
+    },    
+    {
+      "id": "District_boundaries_Zambia",
+      "active": true,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_District_boundaries_Zambia}",
+      "layers": ["District_boundaries_Zambia"]
+    }
+  ],
+  
+  "contextGroups": 
+  {
+    "items": [
+	{
+		"group": {
+		  "label": "${base_layers}",
+		  "items": [           
+			{ "context": "bluemarble" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${admin_areas}",
+		  "items": [
+			{ "context": "Towns" },
+			{ "context": "village_centres" },
+			{ "context": "District_boundaries_Zambia" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${zambia_label_environment}",
+		  "items": [
+			{ "context": "Geology_Zambia" },
+			{ "context": "Vegetation_types" },
+			{ "context": "Soils_Zambia" },
+			{ "context": "Nat_Parks_GMAs" },
+			{ "context": "built_up_areas_4326" },
+			{ "context": "settlements" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${zambia_label_public_infrastructures}",
+		  "items": [           
+			{ "context": "Drainage_network" },
+			{ "context": "Roads_Tracks" },
+			{ "context": "Powerlines" },
+			{ "context": "Zambia_health_facilities" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${forest_area_and_forest_area_change}",
+		  "items": [
+		  ]
+		}
+	}
+    ]
+  }
+}
