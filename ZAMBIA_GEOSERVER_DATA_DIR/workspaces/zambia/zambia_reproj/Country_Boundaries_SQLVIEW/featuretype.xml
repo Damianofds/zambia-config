@@ -1,0 +1,56 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1c1b0a53:1402b113734:-7ddd</id>
+  <name>Country_Boundaries_SQLVIEW</name>
+  <nativeName>Boundaries</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>Country Boundaries SQLVIEW</title>
+  <abstract>Country_Boundaries_SQLVIEW - created in order to generate a Country Boundary shp which has been used to setup the Country_Boundary layer.</abstract>
+  <keywords>
+    <string>Boundaries</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>21.99937</minx>
+    <maxx>33.705699</maxx>
+    <miny>-18.0733062357228</miny>
+    <maxy>-8.22346803573272</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>21.99937</minx>
+    <maxx>33.705699</maxx>
+    <miny>-18.0733062357228</miny>
+    <maxy>-8.22346803573272</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>Boundaries</name>
+        <sql>SELECT ST_ExteriorRing(ST_AsText(ST_Union(f.the_geom))) as singlegeom&#xd;
+FROM zambia.&quot;District_boundaries_Zambia&quot; As f</sql>
+        <geometry>
+          <name>singlegeom</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

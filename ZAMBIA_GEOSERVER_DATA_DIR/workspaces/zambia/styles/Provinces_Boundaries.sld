@@ -6,23 +6,22 @@
  xmlns:xlink="http://www.w3.org/1999/xlink" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>districts</Name>
+    <Name>provinces boundaries</Name>
     <UserStyle>
-      <Title>Districts</Title>
-      <Abstract>Zambia districts</Abstract>
+      <Title>Provinces Boundaries</Title>
+      <Abstract>Zambia Provinces Boundaries</Abstract>
       <FeatureTypeStyle>
-        <Rule>
+        <Rule>          
           <Name>border</Name>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#f0a020</CssParameter>
-              <CssParameter name="stroke-width">0.3</CssParameter> 
+              <CssParameter name="stroke">#800000</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter> 
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <MinScaleDenominator>2900000</MinScaleDenominator>          
-          <MaxScaleDenominator>7000000</MaxScaleDenominator>          
+          <MinScaleDenominator>6900000</MinScaleDenominator>                    
           <TextSymbolizer>
             <Geometry>
                <ogc:Function name="centroid">
@@ -30,7 +29,7 @@
                </ogc:Function>
             </Geometry>
             <Label>
-              <ogc:PropertyName>NAME1_</ogc:PropertyName>
+              <ogc:PropertyName>NAME2_</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>

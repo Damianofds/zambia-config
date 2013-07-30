@@ -9,6 +9,7 @@
       <Title>Zambia towns</Title>
       <FeatureTypeStyle>
         <Rule>
+          <MinScaleDenominator>1900000</MinScaleDenominator>          
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <Title>Towns</Title>
           <PointSymbolizer>
@@ -40,6 +41,7 @@
           </PointSymbolizer>
         </Rule>
         <Rule>
+          <MinScaleDenominator>1900000</MinScaleDenominator>          
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <TextSymbolizer>
             <Geometry>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-64c0154e:14029b98945:-7ff8</id>
+  <name>Forest_Reserves</name>
+  <nativeName>Forest_Reserves</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>Forest_Reserves</title>
+  <keywords>
+    <string>features</string>
+    <string>Forest_Reserves</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>22.0450592041016</minx>
+    <maxx>33.6786804199219</maxx>
+    <miny>-17.8185041150736</miny>
+    <maxy>-8.58956270604226</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>22.0450592041016</minx>
+    <maxx>33.6786804199219</maxx>
+    <miny>-17.8185041150736</miny>
+    <maxy>-8.58956270604226</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

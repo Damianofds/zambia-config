@@ -1,0 +1,23 @@
+<layer>
+  <name>Provinces_Boundaries</name>
+  <id>LayerInfoImpl--1c1b0a53:1402b113734:-7d62</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1c1b0a53:1402b113734:-7d61</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1c1b0a53:1402b113734:-7d63</id>
+  </resource>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <queryable>true</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

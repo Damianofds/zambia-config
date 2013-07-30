@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-64c0154e:14029b98945:-7ffa</id>
+  <name>Built_up_areas</name>
+  <nativeName>Built_up_areas</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>Built_up_areas</title>
+  <keywords>
+    <string>Built_up_areas</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>22.8933029199857</minx>
+    <maxx>33.710403436955</maxx>
+    <miny>-17.9457753509217</miny>
+    <maxy>-8.51941754148067</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>22.8933029199857</minx>
+    <maxx>33.710403436955</maxx>
+    <miny>-17.9457753509217</miny>
+    <maxy>-8.51941754148067</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

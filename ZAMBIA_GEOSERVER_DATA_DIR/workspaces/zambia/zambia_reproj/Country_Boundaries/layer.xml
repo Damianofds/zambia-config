@@ -1,0 +1,18 @@
+<layer>
+  <name>Country_Boundaries</name>
+  <id>LayerInfoImpl--1c1b0a53:1402b113734:-7dbf</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1c1b0a53:1402b113734:-7dbe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1c1b0a53:1402b113734:-7dc0</id>
+  </resource>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <queryable>true</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

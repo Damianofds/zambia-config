@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-64c0154e:14029b98945:-7ffc</id>
+  <name>GIS_NFMS_Offices</name>
+  <nativeName>GIS_NFMS_Offices</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>GIS_NFMS_Offices</title>
+  <keywords>
+    <string>features</string>
+    <string>GIS_NFMS_Offices</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>23.1388056305871</minx>
+    <maxx>32.6217648000604</maxx>
+    <miny>-16.815050493778</miny>
+    <maxy>-10.2003702121959</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>23.1388056305871</minx>
+    <maxx>32.6217648000604</maxx>
+    <miny>-16.815050493778</miny>
+    <maxy>-10.2003702121959</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
