@@ -20,7 +20,8 @@
       "visible": true,
       "legend": "landcover_legend.png",
       "sourceLink": "",
-      "sourceLabel": "Sampled Land Cover"
+      "sourceLabel": "Sampled Land Cover",
+      "queryable": "true"
     },
     {
       "id": "Geology_Zambia",
@@ -41,7 +42,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Drainage network"
+      "sourceLabel": "Drainage network",
+      "queryable": "true"
     },
     {
       "id": "Vegetation_types",
@@ -51,7 +53,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Vegetation_types"
+      "sourceLabel": "Vegetation_types",
+      "queryable": "true"
     },
     {
       "id": "Soils_Zambia",
@@ -61,7 +64,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Soils_Zambia"
+      "sourceLabel": "Soils_Zambia",
+      "queryable": "true"
     },
     {
       "id": "Powerlines",
@@ -71,7 +75,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Powerlines"
+      "sourceLabel": "Powerlines",
+      "queryable": "true"
     },
     {
       "id": "Nat_Parks_GMAs",
@@ -81,7 +86,19 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Nat_Parks_GMAs"
+      "sourceLabel": "Nat_Parks_GMAs",
+      "queryable": "true"
+    },
+    {
+      "id": "forest_reserves",
+      "label": "${zambia_label_forest_reserves}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Forest_Reserves",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "Forest_Reserves",
+      "queryable": "true"
     },
     {
       "id": "Roads_Tracks",
@@ -91,7 +108,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Roads_Tracks"
+      "sourceLabel": "Roads_Tracks",
+      "queryable": "true"
     },
     {
       "id": "built_up_areas_4326",
@@ -101,7 +119,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "built_up_areas_4326"
+      "sourceLabel": "built_up_areas_4326",
+      "queryable": "true"
     },
     {
       "id": "Zambia_health_facilities",
@@ -111,7 +130,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Zambia_health_facilities"
+      "sourceLabel": "Zambia_health_facilities",
+      "queryable": "true"
     },
     {
       "id": "settlements",
@@ -121,8 +141,42 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "settlements"
-    },	
+      "sourceLabel": "settlements",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua1",
+      "label": "${ilua1}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Provinces_Ilua",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "ILUA-I",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua2",
+      "label": "${ilua2_plots}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:SelectedPlots_35_Zambia_Unio",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "ILUA-II_plots",
+      "queryable": "true"
+    },
+    {
+      "id": "gis_offices",
+      "label": "${gis_offices}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:GIS_NFMS_Offices",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "gis_offices",
+      "queryable": "true"
+    },
     {
       "id": "District_boundaries_Zambia",
       "label": "${zambia_label_District_boundaries_Zambia}",
@@ -172,7 +226,7 @@
       "visible": true,
       "sourceLink": "",
       "sourceLabel": "Towns"
-    } 
+    }
   ],
   
   "contexts": [
@@ -189,6 +243,27 @@
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_land_cover}",
       "layers": ["land_cover"]
+    },
+    {
+      "id": "ilua1",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${ilua1}",
+      "layers": ["ilua1"]
+    },
+    {
+      "id": "ilua2",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${ilua2_plots}",
+      "layers": ["ilua2"]
+    },
+    {
+      "id": "gis_offices",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${gis_offices}",
+      "layers": ["gis_offices"]
     },
     {
       "id": "Towns",
@@ -245,7 +320,14 @@
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_Nat_Parks_GMAs}",
       "layers": ["Nat_Parks_GMAs"]
-    },    
+    },
+    {
+      "id": "forest_reserves",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_forest_reserves}",
+      "layers": ["forest_reserves"]
+    },
     {
       "id": "Roads_Tracks",
       "active": false,
@@ -324,6 +406,7 @@
 		"group": {
 		  "label": "${zambia_label_environment}",
 		  "items": [
+			{ "context": "forest_reserves" },			
 			{ "context": "Geology_Zambia" },
 			{ "context": "Vegetation_types" },
 			{ "context": "Soils_Zambia" },
@@ -348,10 +431,21 @@
 		"group": {
 		  "label": "${forest_area_and_forest_area_change}",
 		  "items": [
-			{ "context": "land_cover" }
+			{ "context": "land_cover" },
+			{ "context": "gis_offices"}
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${integrated_land_use_assessment}",
+		  "items": [
+			{ "context": "ilua1" },
+			{ "context": "ilua2" }
 		  ]
 		}
 	}
+
     ]
   }
 }

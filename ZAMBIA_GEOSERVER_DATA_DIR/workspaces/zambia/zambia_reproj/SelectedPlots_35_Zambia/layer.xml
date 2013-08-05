@@ -1,12 +1,12 @@
 <layer>
-  <name>Forest_Reserves</name>
-  <id>LayerInfoImpl-64c0154e:14029b98945:-7ff7</id>
+  <name>SelectedPlots_35_Zambia</name>
+  <id>LayerInfoImpl--4109a268:14038a815aa:-7fdf</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-23e886ea:14039deacc1:-7fdc</id>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-64c0154e:14029b98945:-7ff8</id>
+    <id>FeatureTypeInfoImpl--4109a268:14038a815aa:-7fe0</id>
   </resource>
   <enabled>true</enabled>
   <advertised>true</advertised>

@@ -8,6 +8,9 @@
 *.war
 *.ear
 
+# Linux Temp Files #
+*~
+
 # Logs #
 *.log
 
@@ -30,6 +33,12 @@ ZAMBIA_GEOSERVER_DATA_DIR/wcs.xml
 ZAMBIA_GEOSERVER_DATA_DIR/wfs.xml
 ZAMBIA_GEOSERVER_DATA_DIR/wms.xml
 ZAMBIA_GEOSERVER_DATA_DIR/www/
+ZAMBIA_GEOSERVER_DATA_DIR/logs/
+
+# geobatch datadir #
+ZAMBIA_GEOBATCH_CONFIG_DIR/settings/database/
+ZAMBIA_GEOBATCH_CONFIG_DIR/temp/
+
 
 
 
