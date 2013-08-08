@@ -1,28 +1,28 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4109a268:14038a815aa:-7fe2</id>
-  <name>SelectedPlots_35_Zambia_Unio1</name>
-  <nativeName>SelectedPlots_35_Zambia_Unio1</nativeName>
+  <id>FeatureTypeInfoImpl--25ac9644:140591426e7:-7ffe</id>
+  <name>forest_plots_ilua2</name>
+  <nativeName>forest_plots_ilua2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
   </namespace>
-  <title>SelectedPlots_35_Zambia_Unio1</title>
+  <title>forest_plots_ilua2</title>
   <keywords>
     <string>features</string>
-    <string>SelectedPlots_35_Zambia_Unio1</string>
+    <string>forest_plots_ilua2</string>
   </keywords>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>29.3003383879953</minx>
-    <maxx>33.6050292070783</maxx>
-    <miny>-13.4007984606061</miny>
-    <maxy>-8.29607133313095</maxy>
-    <crs class="projected">EPSG:32735</crs>
+    <minx>22.0003530949871</minx>
+    <maxx>33.6050292092491</maxx>
+    <miny>-18.0007762893516</miny>
+    <maxy>-8.29607133313356</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>29.3003383879953</minx>
-    <maxx>33.6050292070783</maxx>
-    <miny>-13.4007984606061</miny>
-    <maxy>-8.29607133313095</maxy>
+    <minx>22.0003530949871</minx>
+    <maxx>33.6050292092491</maxx>
+    <miny>-18.0007762893516</miny>
+    <maxy>-8.29607133313356</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

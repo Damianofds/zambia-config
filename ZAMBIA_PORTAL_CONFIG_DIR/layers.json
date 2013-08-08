@@ -145,21 +145,32 @@
       "queryable": "true"
     },
     {
-      "id": "ilua1",
-      "label": "${ilua1}",
+      "id": "ilua1_stats_provinces",
+      "label": "${zambia_label_ilua1_provinces}",
       "baseUrl": "/geoserver/wms",
       "wmsName": "zambia:Provinces_Ilua",
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "ILUA-I",
+      "sourceLabel": "ILUA-I_stats_provinces",
       "queryable": "true"
     },
     {
-      "id": "ilua2",
-      "label": "${ilua2_plots}",
+      "id": "ilua1_plots",
+      "label": "${zambia_label_ilua1_plots}",
       "baseUrl": "/geoserver/wms",
-      "wmsName": "zambia:SelectedPlots_35_Zambia_Unio",
+      "wmsName": "zambia:forest_plots_ilua1",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "sourceLink": "",
+      "sourceLabel": "ILUA-II_plots",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua2_plots",
+      "label": "${zambia_label_ilua2_plots}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:forest_plots_ilua2",
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
@@ -168,7 +179,7 @@
     },
     {
       "id": "gis_offices",
-      "label": "${gis_offices}",
+      "label": "${zambia_label_gis_offices}",
       "baseUrl": "/geoserver/wms",
       "wmsName": "zambia:GIS_NFMS_Offices",
       "imageFormat": "image/png8",
@@ -245,24 +256,31 @@
       "layers": ["land_cover"]
     },
     {
-      "id": "ilua1",
+      "id": "ilua1_stats_provinces",
       "active": false,
       "infoFile": "alertBelongToForDep.html",
-      "label": "${ilua1}",
-      "layers": ["ilua1"]
+      "label": "${zambia_label_ilua1_stats_provinces}",
+      "layers": ["ilua1_stats_provinces"]
     },
     {
-      "id": "ilua2",
+      "id": "ilua1_plots",
       "active": false,
       "infoFile": "alertBelongToForDep.html",
-      "label": "${ilua2_plots}",
-      "layers": ["ilua2"]
+      "label": "${zambia_label_ilua1_plots}",
+      "layers": ["ilua1_plots"]
+    },
+    {
+      "id": "ilua2_plots",
+      "active": false,
+      "infoFile": "alertBelongToForDep.html",
+      "label": "${zambia_label_ilua2_plots}",
+      "layers": ["ilua2_plots"]
     },
     {
       "id": "gis_offices",
       "active": false,
       "infoFile": "alertBelongToForDep.html",
-      "label": "${gis_offices}",
+      "label": "${zambia_label_gis_offices}",
       "layers": ["gis_offices"]
     },
     {
@@ -376,6 +394,78 @@
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_District_boundaries_Zambia}",
       "layers": ["District_boundaries_Zambia"]
+    },
+    {
+      "id": "outcome1",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "outcome1: Readiness"
+    },
+    {
+      "id": "outcome2",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "outcome2: Stakeholder support"
+    },
+    {
+      "id": "outcome3",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "outcome3: Implementation capacities"
+    },
+    {
+      "id": "outcome4",
+      "active": true,
+      "infoFile": "outcome4.html",
+      "label": "outcome4: Strategies identified"
+    },
+    {
+      "id": "outcome5",
+      "active": true,
+      "infoFile": "outcome5.html",
+      "label": "outcome5: MRV implementation capacity"
+    },
+    {
+      "id": "outcome6",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "outcome6: Assessment of REL and RL"
+    },
+    {
+      "id": "deforestation",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "${deforestation}"
+    },
+    {
+      "id": "degradation",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "${degradation}"
+    },
+    {
+      "id": "enhancement",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "${enhancement}"
+    },
+    {
+      "id": "conservation",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "${conservation}"
+    },
+    {
+      "id": "sustainable",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "${sustainable_management}"
+    },
+    {
+      "id": "jfs",
+      "active": true,
+      "infoFile": "dataNotAvaiable.html",
+      "label": "Joint Forest Management"
     }
   ],
   
@@ -438,14 +528,56 @@
 	},
 	{
 		"group": {
-		  "label": "${integrated_land_use_assessment}",
+		  "label": "${zambia_label_ilua_1}",
+		  "infoFile": "ilua-I.html",
 		  "items": [
-			{ "context": "ilua1" },
-			{ "context": "ilua2" }
+			{ "context": "ilua1_stats_provinces" },
+			{ "context": "ilua1_plots" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${zambia_label_ilua_2}",
+		  "infoFile": "ilua-II.html",
+		  "items": [
+			{ "context": "ilua2_plots" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${zambia_label_quick_start_initiatives}",
+		  "items": [
+			{ "context": "outcome1" },
+			{ "context": "outcome2" },
+			{ "context": "outcome3" },
+			{ "context": "outcome4" },
+			{ "context": "outcome5" },
+			{ "context": "outcome6" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${redd_plus_projects}",
+		  "items": [
+			{ "context": "deforestation" },
+			{ "context": "degradation" },
+			{ "context": "enhancement" },
+			{ "context": "conservation" },
+			{ "context": "sustainable" }
+		  ]
+		}
+	},
+	{
+		"group": {
+		  "label": "${zambia_label_forest_related_project}",
+		  "items": [
+			{ "context": "jfs" }
 		  ]
 		}
 	}
-
     ]
   }
 }

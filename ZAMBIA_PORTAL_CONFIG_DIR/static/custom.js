@@ -1,7 +1,7 @@
 UNREDD.maxExtent = new OpenLayers.Bounds(-20037508, -20037508, 20037508, 20037508);
 UNREDD.restrictedExtent = new OpenLayers.Bounds(-20037508, -20037508, 20037508, 20037508);
 UNREDD.maxResolution = 4891.969809375;
-UNREDD.mapCenter = new OpenLayers.LonLat(2300000, -1650000);
+UNREDD.mapCenter = new OpenLayers.LonLat(2700000, -1700000);
 UNREDD.defaultZoomLevel = 1;
 
 UNREDD.wmsServers = [

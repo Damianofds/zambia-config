@@ -1,12 +1,12 @@
 <layer>
-  <name>SelectedPlots_34_Zambia</name>
-  <id>LayerInfoImpl--4109a268:14038a815aa:-7fe3</id>
+  <name>forest_plots_ilua2</name>
+  <id>LayerInfoImpl--25ac9644:140591426e7:-7ffd</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--4109a268:14038a815aa:-7fe4</id>
+    <id>FeatureTypeInfoImpl--25ac9644:140591426e7:-7ffe</id>
   </resource>
   <enabled>true</enabled>
   <advertised>true</advertised>

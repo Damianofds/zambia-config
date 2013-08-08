@@ -255,7 +255,7 @@ territories = Territories
 
 time_button = Time
 
-title = National Forest Monitoring System \n Zambia
+title = National Forest Monitoring System - Zambia
 
 transparency = transparency
 
@@ -313,3 +313,28 @@ zambia_label_Zambia_health_facilities = Zambia health facilities
 
 zambia_label_settlements = Settlements
 
+zambia_label_land_cover = Sampled Land Cover
+
+zambia_label_country_boundaries_zambia = Country Boundaries
+
+zambia_label_provinces_boundaries = Provinces Boundaries
+
+zambia_label_ilua_1 = Integrated Land Use Assessment - Phase I -
+
+zambia_label_ilua1_stats_provinces = ILUA-I Provinces Results
+
+zambia_label_ilua1_plots = ILUA-I forest plots
+
+zambia_label_ilua_2 = Integrated Land Use Assessment - Phase II -
+
+zambia_label_ilua2_plots = ILUA-II forest plots
+
+zambia_label_gis_offices = GIS offices
+
+zambia_label_forest_reserves = Forest Reserves
+
+zambia_label_quick_start_initiatives = UN-REDD Programme – Zambia Quick Start Initiative
+
+zambia_label_forest_related_project = Forest Related Project
+
+zambia_label_joint forest management = Joint Forest Management

@@ -1,0 +1,28 @@
+.outcomeDocumentation
+{
+	font-size:80%;
+	width:500px;
+	height:auto;
+	padding:70px;
+}
+
+ul>li
+{
+	list-style-type:disc;
+}
+
+ul>li.pdf
+{
+	list-style-image:url(img/pdf-icon.gif);
+}
+
+
+ul>li.xls
+{
+	list-style-image:url(img/xls-icon.gif);
+}
+
+ol>li
+{
+	list-style-type:decimal;
+}

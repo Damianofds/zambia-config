@@ -2,6 +2,7 @@
 *.class
 *.h2.db
 *.lock
+*.pdf
 
 # Package Files #
 *.jar
@@ -38,8 +39,3 @@ ZAMBIA_GEOSERVER_DATA_DIR/logs/
 # geobatch datadir #
 ZAMBIA_GEOBATCH_CONFIG_DIR/settings/database/
 ZAMBIA_GEOBATCH_CONFIG_DIR/temp/
-
-
-
-
-
