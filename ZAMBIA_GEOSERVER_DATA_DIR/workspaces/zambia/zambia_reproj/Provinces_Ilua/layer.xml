@@ -1,12 +1,12 @@
 <layer>
   <name>Provinces_Ilua</name>
-  <id>LayerInfoImpl-154ee62b:140388bca80:-7fff</id>
+  <id>LayerInfoImpl-188c02c6:14095fb2cad:-7fd1</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-154ee62b:140388bca80:-8000</id>
+    <id>FeatureTypeInfoImpl-188c02c6:14095fb2cad:-7fd2</id>
   </resource>
   <enabled>true</enabled>
   <attribution>

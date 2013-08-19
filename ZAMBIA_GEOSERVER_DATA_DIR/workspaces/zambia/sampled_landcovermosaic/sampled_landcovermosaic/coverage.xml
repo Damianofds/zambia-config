@@ -1,0 +1,92 @@
+<coverage>
+  <id>CoverageInfoImpl--4aaf8f6b:14095bdad29:-7ffd</id>
+  <name>sampled_landcovermosaic</name>
+  <nativeName>sampled_landcovermosaic</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>sampled_landcovermosaic</title>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>21.843575085745417</minx>
+    <maxx>33.810475533029354</maxx>
+    <miny>-18.19455674551395</miny>
+    <maxy>-8.141866380096895</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>21.843575085745417</minx>
+    <maxx>33.810475533029354</maxx>
+    <miny>-18.19455674551395</miny>
+    <maxy>-8.141866380096895</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>NONE</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>true</enabled>
+        <presentation>LIST</presentation>
+      </dimensionInfo>
+    </entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--4aaf8f6b:14095bdad29:-8000</id>
+  </store>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>969 813</high>
+    </range>
+    <transform>
+      <scaleX>0.012349742463657314</scaleX>
+      <scaleY>-0.012349742463657314</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>21.849749956977227</translateX>
+      <translateY>-8.148041251328719</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <parameters>
+    <entry>
+      <string>AllowMultithreading</string>
+      <string>false</string>
+    </entry>
+    <entry>
+      <string>MaxAllowedTiles</string>
+      <string>2147483647</string>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>256,256</string>
+    </entry>
+    <entry>
+      <string>USE_JAI_IMAGEREAD</string>
+      <string>false</string>
+    </entry>
+    <entry>
+      <string>BackgroundValues</string>
+      <string>-1.0</string>
+    </entry>
+  </parameters>
+</coverage>

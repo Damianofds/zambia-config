@@ -1,0 +1,53 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-154ee62b:140388bca80:-8000</id>
+  <name>Provinces_Ilua_animal</name>
+  <nativeName>Provinces_Ilua</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
+  </namespace>
+  <title>Provinces_Ilua_animal</title>
+  <keywords>
+    <string>Provinces_Ilua</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>21.99937</minx>
+    <maxx>33.705699</maxx>
+    <miny>-18.0733062357228</miny>
+    <maxy>-8.22346803573272</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>21.99937</minx>
+    <maxx>33.705699</maxx>
+    <miny>-18.0733062357228</miny>
+    <maxy>-8.22346803573272</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-26d83288:1401bfa07e9:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

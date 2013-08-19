@@ -1,0 +1,16 @@
+<layer>
+  <name>Provinces_Ilua_animal</name>
+  <id>LayerInfoImpl-154ee62b:140388bca80:-7fff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fd6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-154ee62b:140388bca80:-8000</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

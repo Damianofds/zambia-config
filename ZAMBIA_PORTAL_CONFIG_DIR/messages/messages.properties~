@@ -321,10 +321,6 @@ zambia_label_provinces_boundaries = Provinces Boundaries
 
 zambia_label_ilua_1 = Integrated Land Use Assessment - Phase I -
 
-zambia_label_ilua1_stats_provinces = ILUA-I Provinces Results
-
-zambia_label_ilua1_plots = ILUA-I forest plots
-
 zambia_label_ilua_2 = Integrated Land Use Assessment - Phase II -
 
 zambia_label_ilua2_plots = ILUA-II forest plots
@@ -338,3 +334,27 @@ zambia_label_quick_start_initiatives = UN-REDD Programme – Zambia Quick Start 
 zambia_label_forest_related_project = Forest Related Project
 
 zambia_label_joint forest management = Joint Forest Management
+
+zambia_label_ilua1_stats_provinces_mainResults = <b>ILUA-I Provinces Main Results</b>
+
+zambia_label_ilua1_stats_provinces_cluster = <b>ILUA-I Clusters</b>
+
+zambia_label_ilua1_plots = ILUA-I Clusters and Forest Plots
+
+zambia_label_ilua1_stats_provinces_area = % of Area used for
+
+zambia_label_ilua1_stats_provinces_animal = NWFP Animal Products
+
+zambia_label_ilua1_stats_provinces_plant = NWFP Plant Products
+
+zambia_label_ilua1_stats_provinces_wood = major wood Products
+
+zambia_label_ilua1_stats_provinces_volumes = Forest Volumes (m3/ha)
+
+zambia_label_ilua1_stats_provinces_volume = Forest Volume
+
+zambia_label_ilua1_stats_provinces_commercial_volume = Forest Commercial Volume
+
+zambia_label_ilua1_stats_provinces_biomass = Biomass (tonnes/ha)
+
+zambia_label_ilua1_stats_provinces_biomass = Aboveground Biomass

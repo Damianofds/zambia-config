@@ -38,7 +38,7 @@
 			
 			<listenerConfigurations/>
 			<failIgnored>false</failIgnored>
-		  <purgeData>false</purgeData>
+		  <purgeData>true</purgeData>
 			<projectOnMappings>false</projectOnMappings>
 			<reprojectedCrs>EPSG:4326</reprojectedCrs>
 			<outputFeature>

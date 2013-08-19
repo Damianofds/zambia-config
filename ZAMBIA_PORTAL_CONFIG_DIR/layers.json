@@ -145,12 +145,73 @@
       "queryable": "true"
     },
     {
-      "id": "ilua1_stats_provinces",
-      "label": "${zambia_label_ilua1_provinces}",
+      "id": "ilua1_stats_provinces_animal",
+      "label": "${zambia_label_ilua1_stats_provinces_animal}",
       "baseUrl": "/geoserver/wms",
-      "wmsName": "zambia:Provinces_Ilua",
+      "wmsName": "zambia:Provinces_Ilua_animal",
       "imageFormat": "image/png8",
       "visible": true,
+      "legend": "ilua1_animal_legend.png",
+      "sourceLink": "",
+      "sourceLabel": "ILUA-I_stats_provinces",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua1_stats_provinces_biomass",
+      "label": "${zambia_label_ilua1_stats_provinces_biomass}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Provinces_Ilua_biomass",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "legend": "ilua1_biomass_legend.png",
+      "sourceLink": "",
+      "sourceLabel": "ILUA-I_stats_provinces",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua1_stats_provinces_commercial_volume",
+      "label": "${zambia_label_ilua1_stats_provinces_commercial_volume}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Provinces_Ilua_commercial_volume",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "legend": "ilua1_commercialVolume_legend.png",
+      "sourceLink": "",
+      "sourceLabel": "ILUA-I_stats_provinces",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua1_stats_provinces_plant",
+      "label": "${zambia_label_ilua1_stats_provinces_plant}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Provinces_Ilua_plant",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "legend": "ilua1_plant_legend.png",
+      "sourceLink": "",
+      "sourceLabel": "ILUA-I_stats_provinces",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua1_stats_provinces_wood",
+      "label": "${zambia_label_ilua1_stats_provinces_wood}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Provinces_Ilua_wood",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "legend": "ilua1_wood_legend.png",
+      "sourceLink": "",
+      "sourceLabel": "ILUA-I_stats_provinces",
+      "queryable": "true"
+    },
+    {
+      "id": "ilua1_stats_provinces_volume",
+      "label": "${zambia_label_ilua1_stats_provinces_volume}",
+      "baseUrl": "/geoserver/wms",
+      "wmsName": "zambia:Provinces_Ilua_volume",
+      "imageFormat": "image/png8",
+      "visible": true,
+      "legend": "ilua1_volume_legend.png",
       "sourceLink": "",
       "sourceLabel": "ILUA-I_stats_provinces",
       "queryable": "true"
@@ -256,23 +317,50 @@
       "layers": ["land_cover"]
     },
     {
-      "id": "ilua1_stats_provinces",
+      "id": "ilua1_stats_provinces_animal",
       "active": false,
-      "infoFile": "alertBelongToForDep.html",
-      "label": "${zambia_label_ilua1_stats_provinces}",
-      "layers": ["ilua1_stats_provinces"]
+      "label": "${zambia_label_ilua1_stats_provinces_animal}",
+      "layers": ["ilua1_stats_provinces_animal"]
+    },
+    {
+      "id": "ilua1_stats_provinces_biomass",
+      "active": false,
+      "label": "${zambia_label_ilua1_stats_provinces_biomass}",
+      "layers": ["ilua1_stats_provinces_biomass"]
+    },
+    {
+      "id": "ilua1_stats_provinces_commercial_volume",
+      "active": false,
+      "label": "${zambia_label_ilua1_stats_provinces_commercial_volume}",
+      "layers": ["ilua1_stats_provinces_commercial_volume"]
+    },
+    {
+      "id": "ilua1_stats_provinces_plant",
+      "active": false,
+      "label": "${zambia_label_ilua1_stats_provinces_plant}",
+      "layers": ["ilua1_stats_provinces_plant"]
+    },
+    {
+      "id": "ilua1_stats_provinces_wood",
+      "active": false,
+      "label": "${zambia_label_ilua1_stats_provinces_wood}",
+      "layers": ["ilua1_stats_provinces_wood"]
+    },
+    {
+      "id": "ilua1_stats_provinces_volume",
+      "active": false,
+      "label": "${zambia_label_ilua1_stats_provinces_volume}",
+      "layers": ["ilua1_stats_provinces_volume"]
     },
     {
       "id": "ilua1_plots",
       "active": false,
-      "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_ilua1_plots}",
       "layers": ["ilua1_plots"]
     },
     {
       "id": "ilua2_plots",
       "active": false,
-      "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_ilua2_plots}",
       "layers": ["ilua2_plots"]
     },
@@ -399,37 +487,37 @@
       "id": "outcome1",
       "active": true,
       "infoFile": "dataNotAvaiable.html",
-      "label": "outcome1: Readiness"
+      "label": "Outcome1: Readiness"
     },
     {
       "id": "outcome2",
       "active": true,
       "infoFile": "dataNotAvaiable.html",
-      "label": "outcome2: Stakeholder support"
+      "label": "Outcome2: Stakeholder support"
     },
     {
       "id": "outcome3",
       "active": true,
       "infoFile": "dataNotAvaiable.html",
-      "label": "outcome3: Implementation capacities"
+      "label": "Outcome3: Implementation capacities"
     },
     {
       "id": "outcome4",
       "active": true,
       "infoFile": "outcome4.html",
-      "label": "outcome4: Strategies identified"
+      "label": "Outcome4: Strategies identified"
     },
     {
       "id": "outcome5",
       "active": true,
       "infoFile": "outcome5.html",
-      "label": "outcome5: MRV implementation capacity"
+      "label": "Outcome5: MRV implementation capacity"
     },
     {
       "id": "outcome6",
       "active": true,
-      "infoFile": "dataNotAvaiable.html",
-      "label": "outcome6: Assessment of REL and RL"
+      "infoFile": "outcome6.html",
+      "label": "Outcome6: Assessment of REL and RL"
     },
     {
       "id": "deforestation",
@@ -476,7 +564,8 @@
 		"group": {
 		  "label": "${base_layers}",
 		  "items": [           
-			{ "context": "bluemarble" }
+			{ "context": "bluemarble" },
+			{ "context": "Country_Boundaries"}
 		  ]
 		}
 	},
@@ -486,7 +575,6 @@
 		  "items": [
 			{ "context": "Towns" },
 			{ "context": "village_centres" },
-			{ "context": "Country_Boundaries"},
 			{ "context": "Provinces_Boundaries"},
 			{ "context": "District_boundaries_Zambia" }
 		  ]
@@ -531,8 +619,49 @@
 		  "label": "${zambia_label_ilua_1}",
 		  "infoFile": "ilua-I.html",
 		  "items": [
-			{ "context": "ilua1_stats_provinces" },
-			{ "context": "ilua1_plots" }
+			{
+				"group": {
+				  "label": "${zambia_label_ilua1_stats_provinces_mainResults}",
+				  "items": [
+					{
+						"group": {
+						  "label": "${zambia_label_ilua1_stats_provinces_area}",
+						  "items": [					
+							{ "context": "ilua1_stats_provinces_animal" },
+							{ "context": "ilua1_stats_provinces_plant" },
+							{ "context": "ilua1_stats_provinces_wood" }
+						  ]
+						}
+					},
+					{
+						"group": {
+						  "label": "${zambia_label_ilua1_stats_provinces_volumes}",
+						  "items": [
+							{ "context": "ilua1_stats_provinces_commercial_volume" },
+							{ "context": "ilua1_stats_provinces_volume" }
+						  ]
+						}
+					},
+					{
+						"group": {
+						  "label": "${zambia_label_ilua1_stats_provinces_biomasses}",
+						  "items": [
+							{ "context": "ilua1_stats_provinces_biomass" }
+						  ]
+						}
+					}
+			  	]
+				}
+			},
+			{
+				"group": {
+				  "label": "${zambia_label_ilua1_stats_provinces_cluster}",
+				  "items": [
+					{ "context": "ilua1_plots" }
+
+				  ]
+				}
+			}	
 		  ]
 		}
 	},
