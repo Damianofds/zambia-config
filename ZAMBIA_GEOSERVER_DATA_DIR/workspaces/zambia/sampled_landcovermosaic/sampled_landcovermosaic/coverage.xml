@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--4aaf8f6b:14095bdad29:-7ffd</id>
+  <id>CoverageInfoImpl--1aecd9db:140bf9df2e2:-7ffb</id>
   <name>sampled_landcovermosaic</name>
   <nativeName>sampled_landcovermosaic</nativeName>
   <namespace>
@@ -17,17 +17,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>21.843575085745417</minx>
-    <maxx>33.810475533029354</maxx>
-    <miny>-18.19455674551395</miny>
-    <maxy>-8.141866380096895</maxy>
+    <minx>21.8435750857454</minx>
+    <maxx>33.8104755330294</maxx>
+    <miny>-18.1945567455139</miny>
+    <maxy>-8.14186638009689</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>21.843575085745417</minx>
-    <maxx>33.810475533029354</maxx>
-    <miny>-18.19455674551395</miny>
-    <maxy>-8.141866380096895</maxy>
+    <minx>21.8435750857454</minx>
+    <maxx>33.8104755330294</maxx>
+    <miny>-18.1945567455139</miny>
+    <maxy>-8.14186638009689</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>NONE</projectionPolicy>
@@ -46,7 +46,7 @@
     </entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--4aaf8f6b:14095bdad29:-8000</id>
+    <id>CoverageStoreInfoImpl--1aecd9db:140bf9df2e2:-7ffe</id>
   </store>
   <grid dimension="2">
     <range>

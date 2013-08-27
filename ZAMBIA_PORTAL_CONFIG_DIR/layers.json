@@ -21,7 +21,7 @@
       "legend": "landcover_legend.png",
       "sourceLink": "",
       "sourceLabel": "Sampled Land Cover",
-      "queryable": "true"
+      "queryable": "false"
     },
     {
       "id": "Geology_Zambia",
@@ -115,7 +115,7 @@
       "id": "built_up_areas_4326",
       "label": "${zambia_label_built_up_areas_4326}",
       "baseUrl": "/geoserver/wms",
-      "wmsName": "zambia:built_up_areas_4326",
+      "wmsName": "zambia:Built_up_areas",
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
@@ -267,7 +267,8 @@
       "imageFormat": "image/png8",
       "visible": true,
       "sourceLink": "",
-      "sourceLabel": "Provinces_Boundaries"
+      "sourceLabel": "Provinces_Boundaries",
+      "queryable": "true"
     },
     {
       "id": "Country_Boundaries",
@@ -314,7 +315,7 @@
       "active": false,
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_land_cover}",
-      "layers": ["land_cover"]
+      "layers": ["land_cover","Provinces_Boundaries"]
     },
     {
       "id": "ilua1_stats_provinces_animal",
@@ -373,7 +374,7 @@
     },
     {
       "id": "Towns",
-      "active": true,
+      "active": false,
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_Towns}",
       "layers": ["Towns"]
@@ -401,7 +402,7 @@
     },    
     {
       "id": "village_centres",
-      "active": true,
+      "active": false,
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_village_centres}",
       "layers": ["village_centres"]
@@ -464,7 +465,7 @@
     },    
     {
       "id": "Provinces_Boundaries",
-      "active": true,
+      "active": false,
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_provinces_boundaries}",
       "layers": ["Provinces_Boundaries"]
@@ -478,7 +479,7 @@
     },
     {
       "id": "District_boundaries_Zambia",
-      "active": true,
+      "active": false,
       "infoFile": "alertBelongToForDep.html",
       "label": "${zambia_label_District_boundaries_Zambia}",
       "layers": ["District_boundaries_Zambia"]
