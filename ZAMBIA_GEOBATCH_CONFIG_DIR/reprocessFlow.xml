@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowConfiguration>
+        <!-- ID MUST be the same as file name -->
+        <id>reprocessFlow</id>
+        <name>UNREDD_reprocessing_flow</name>
+        <description>UNREDD - Reprocess layers, stats and charts on the staging system.</description>
+
+        <!-- <overrideTempDir>/var/geobatch/drc/temp</overrideTempDir> -->
+        <autorun>true</autorun>
+
+        <EventGeneratorConfiguration>
+                <id>reprocessEGC</id>
+                <serviceID>fsEventGeneratorService</serviceID>
+
+                <watchDirectory>reprocess/reprocess</watchDirectory>
+                <wildCard>*.xml</wildCard>
+
+                <osType>OS_UNDEFINED</osType>
+                <eventType>FILE_ADDED</eventType>
+        </EventGeneratorConfiguration>
+
+        <EventConsumerConfiguration>
+                <id>reprocessECC</id>
+
+                <listenerId>ReprocessConsumerLogger0</listenerId>
+                <listenerId>ReprocessCumulator0</listenerId>
+                <listenerId>ReprocessStatusActionLogger0</listenerId> 
+
+                <performBackup>false</performBackup>
+
+                <!-- First and only Action configuration  -->
+                <ReprocessConfiguration>
+			<id>ReprocessActionConfiguration</id>
+			<name>Reprocess_Action</name>
+			<description>Single-step action for reprocessing layers, stats, charts</description>
+
+                        <listenerId>ReprocessConsumerLogger0</listenerId>
+                        <listenerId>ReprocessCumulator0</listenerId>
+                        <listenerId>ReprocessStatusActionLogger0</listenerId>
+
+			<failIgnored>false</failIgnored>
+			<geoStoreConfig>
+				<url>http://localhost:9081/geostore/rest</url>
+				<username>admin</username>
+				<password>admin</password>
+			</geoStoreConfig>
+
+			<postGisConfig>
+				<host>localhost</host>
+				<port>5432</port>
+				<database>geostore_zambia</database>
+				<schema>zambia</schema>
+				<username>zambia</username>
+				<password>zambia</password>
+			</postGisConfig>
+		
+		  <!-- Used just for Vector data (not used in Zambia customization) -->
+                  <rasterizeConfig>
+                    <executable>gdal_rasterize</executable>
+                    <taskExecutorXslFileName>taskexec.xsl</taskExecutorXslFileName>
+                    <freeMarkerTemplate>freemarkertemplate.xml</freeMarkerTemplate>
+                  </rasterizeConfig>
+
+		  <!-- Used just for Vector data (not used in Zambia customization) -->
+                  <overviewsEmbedderConfiguration>
+                    <dirty>false</dirty>
+                    <listenerConfigurations/>
+                    <failIgnored>false</failIgnored>
+                    <JAICapacity>0</JAICapacity>
+                    <compressionRatio>0.75</compressionRatio>
+                    <compressionScheme>LZW</compressionScheme>
+                    <downsampleStep>0</downsampleStep>
+                    <numSteps>42</numSteps>
+                    <tileH>512</tileH>
+                    <tileW>512</tileW>
+                    <wildcardString>*.*</wildcardString>
+                    <logNotification>true</logNotification>
+                    <interp>0</interp>
+                  </overviewsEmbedderConfiguration>
+                </ReprocessConfiguration>
+
+
+        </EventConsumerConfiguration>
+
+    <ListenerConfigurations>
+        <StatusProgressListener>
+            <serviceID>statusListenerService</serviceID>
+            <id>ReprocessStatusActionLogger0</id>
+        </StatusProgressListener>
+        
+        <LoggingProgressListener>
+            <serviceID>loggingListenerService</serviceID>
+            <id>ReprocessActionLogger0</id>
+
+            <loggerName>ReprocessActionLogger0</loggerName>
+        </LoggingProgressListener>
+
+        <LoggingProgressListener>
+            <serviceID>loggingListenerService</serviceID>
+            <id>ReprocessConsumerLogger0</id>
+
+            <loggerName>ReprocessConsumerLogger0</loggerName>
+        </LoggingProgressListener>
+
+        <CumulatingProgressListener>
+            <serviceID>cumulatingListenerService</serviceID>
+            <id>ReprocessCumulator0</id>
+        </CumulatingProgressListener>
+    </ListenerConfigurations>
+    
+</FlowConfiguration>

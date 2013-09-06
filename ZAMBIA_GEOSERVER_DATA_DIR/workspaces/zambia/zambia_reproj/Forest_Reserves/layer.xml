@@ -1,16 +1,14 @@
 <layer>
   <name>Forest_Reserves</name>
-  <id>LayerInfoImpl-64c0154e:14029b98945:-7ff7</id>
+  <id>LayerInfoImpl--28e16a82:140f45e97ea:-7fe4</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-7fb8c7e5:1405fc30d4d:-7ffc</id>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-64c0154e:14029b98945:-7ff8</id>
+    <id>FeatureTypeInfoImpl--28e16a82:140f45e97ea:-7fe5</id>
   </resource>
   <enabled>true</enabled>
-  <advertised>true</advertised>
-  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

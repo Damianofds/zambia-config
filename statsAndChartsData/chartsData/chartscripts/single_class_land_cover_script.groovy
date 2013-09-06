@@ -11,7 +11,8 @@ import it.geosolutions.geostore.services.rest.GeoStoreClient
 import it.geosolutions.geostore.services.rest.model.RESTStoredData
 import it.geosolutions.geostore.core.model.Resource
 import it.geosolutions.geostore.core.model.Attribute
-
+import it.geosolutions.unredd.geostore.model.UNREDDCategories
+import it.geosolutions.unredd.geostore.model.UNREDDChartScript
 
 log = LoggerFactory.getLogger("land_usage.groovy");
 
@@ -44,6 +45,8 @@ pixelResolutionHA = 0.09
  *   the key in localization file to obtain the class name localized
  */
 className = "forest"
+
+statsDataName = "country_stats"
 
 /**
  * This method is the entry point for the land_usage script (it is called by the GB scripting action) and implements the main loop of charts generation.
@@ -78,10 +81,21 @@ def execute(Map argsMap)
     UNREDDGeostoreManager manager = new UNREDDGeostoreManager(client)
 
     chartScriptName = argsMap.get("configuration").getProperties().get("chartscript_name")
-    log.info ("Chart script name " + chartScriptName)
+    log.info ("Chart script name - '" + chartScriptName + "'")
 
+    deletePreviousChartData(client, chartScriptName);
+
+//Get the related ChartScriptResource to obtain the list of statDefName
+chartScriptResource = manager.searchResourceByName(chartScriptName, UNREDDCategories.CHARTSCRIPT)
+UNREDDChartScript chartScriptUNREDDResource = new UNREDDChartScript(chartScriptResource)
+statDefList = chartScriptUNREDDResource.getReverseAttributes("StatsDef")
+
+// Iterate over the statDefNames related to this script and generate the charts
+statDefList.each() { statDefName ->
+
+    log.info("Generate charts for '" + statDefName + "'")
     // Load forest change forest data
-    forestData = importData(manager, chartScriptName, true)
+    forestData = importData(manager, chartScriptName, true, statDefName)
     log.info("forestData: " + forestData)
 
     // Load localized data
@@ -92,8 +106,6 @@ def execute(Map argsMap)
 
     def lastYear  = null;
     def firstYear = null;
-
-    deletePreviousChartData(client, chartScriptName);
 
     // Iterate through the languages
     loc.each { langKey, loc ->
@@ -110,7 +122,7 @@ def execute(Map argsMap)
                 html = htmlTemplate.make(binding)
 
                 // Save in GeoStore
-                def resourceName = chartScriptName + "_" + featureId + "_" + langKey
+                def resourceName = chartScriptName + "_" + statDefName + "_" + featureId + "_" + langKey
 
                 log.debug("forest    -> " + row)
                 log.debug("loc       -> " + loc)
@@ -125,7 +137,7 @@ def execute(Map argsMap)
             }
         }
     }
-
+}
     return ["return": []]
 }
 
@@ -197,9 +209,9 @@ def saveOnGeoStore(client, featureId, name, html, chartScriptName, published, la
 }
 
 // Loads the stats data from GeoStore
-def importData(manager, dataId, forest)
+def importData(manager, dataId, forest, statDefName)
 {
-    List resources = manager.searchStatsDataByStatsDef2('landcover_stats'); // dataId)
+    List resources = manager.searchStatsDataByStatsDef2(statDefName); // dataId)
     Map output = new HashMap()
 
     for (Resource resource : resources)

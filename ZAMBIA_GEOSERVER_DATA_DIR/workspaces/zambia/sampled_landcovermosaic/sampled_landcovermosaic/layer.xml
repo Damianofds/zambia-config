@@ -1,12 +1,12 @@
 <layer>
   <name>sampled_landcovermosaic</name>
-  <id>LayerInfoImpl--1aecd9db:140bf9df2e2:-7ffa</id>
+  <id>LayerInfoImpl-487afa5b:140e7eb0cc5:-7ff7</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--1aecd9db:140bf9df2e2:-7ffb</id>
+    <id>CoverageInfoImpl-487afa5b:140e7eb0cc5:-7ff8</id>
   </resource>
   <enabled>true</enabled>
   <advertised>true</advertised>
