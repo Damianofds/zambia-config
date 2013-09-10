@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-2766e08a:141077e8c6e:-7f58</id>
+  <name>sampled_deforestationmosaic</name>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-26d83288:1401bfa07e9:-8000</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:/home/geosolutions/ZambiaPrototype/sampled_deforestationmosaic/</url>
+</coverageStore>

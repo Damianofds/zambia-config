@@ -5,6 +5,26 @@
   <defaultStyle>
     <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fd6</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7fb8c7e5:1405fc30d4d:-8000</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fdb</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fde</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fed</id>
+    </style>
+  </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-188c02c6:14095fb2cad:-7fd2</id>
   </resource>

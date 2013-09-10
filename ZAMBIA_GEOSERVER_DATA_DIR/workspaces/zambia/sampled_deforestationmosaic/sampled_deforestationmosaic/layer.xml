@@ -1,0 +1,18 @@
+<layer>
+  <name>sampled_deforestationmosaic</name>
+  <id>LayerInfoImpl-2766e08a:141077e8c6e:-7f54</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2766e08a:141077e8c6e:-7f53</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-2766e08a:141077e8c6e:-7f55</id>
+  </resource>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

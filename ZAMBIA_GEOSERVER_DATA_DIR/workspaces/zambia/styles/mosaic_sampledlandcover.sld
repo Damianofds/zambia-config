@@ -21,13 +21,14 @@
           <Abstract>A raster with 100% opacity</Abstract>
           <RasterSymbolizer>
             <ColorMap  type="values">
+              <ColorMapEntry color="#000000" quantity="-256" label="no data" opacity="0"/>
               <ColorMapEntry color="#000000" quantity="0" label="no data" opacity="0"/>
               <ColorMapEntry color="#009600" quantity="1" label="Forestland" opacity="1"/>
               <ColorMapEntry color="#CDCD00" quantity="2" label="Grassland" opacity="1"/>
               <ColorMapEntry color="#FF9BBE" quantity="3" label="Cropland" opacity="1"/>
               <ColorMapEntry color="#00EEEE" quantity="4" label="Wetlands" opacity="1"/>
               <ColorMapEntry color="#FF0000" quantity="5" label="Settlement" opacity="1"/>              
-              <ColorMapEntry color="#FFFFDC" quantity="6" label="Otherlands" opacity="1"/>              
+              <ColorMapEntry color="#FFFFDC" quantity="6" label="Otherlands" opacity="1"/>                            
               <ColorMapEntry color="#000000" quantity="7" label="no data" opacity="0"/>              
             </ColorMap>
           </RasterSymbolizer>

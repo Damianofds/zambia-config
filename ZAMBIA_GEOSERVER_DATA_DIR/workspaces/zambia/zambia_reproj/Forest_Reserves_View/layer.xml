@@ -1,12 +1,12 @@
 <layer>
-  <name>Provinces_Ilua_plant</name>
-  <id>LayerInfoImpl-188c02c6:14095fb2cad:-7fc3</id>
+  <name>Forest_Reserves_View</name>
+  <id>LayerInfoImpl--7c06cc62:141031677f5:-7cc2</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fdb</id>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-188c02c6:14095fb2cad:-7fc4</id>
+    <id>FeatureTypeInfoImpl--7c06cc62:141031677f5:-7cc3</id>
   </resource>
   <enabled>true</enabled>
   <attribution>

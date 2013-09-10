@@ -1,12 +1,12 @@
 <layer>
-  <name>Provinces_Ilua_animal</name>
-  <id>LayerInfoImpl-154ee62b:140388bca80:-7fff</id>
+  <name>Country_Boundaries_SQLVIEW_Polygon</name>
+  <id>LayerInfoImpl--7c06cc62:141031677f5:-7c91</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-188c02c6:14095fb2cad:-7fd6</id>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-154ee62b:140388bca80:-8000</id>
+    <id>FeatureTypeInfoImpl--7c06cc62:141031677f5:-7c92</id>
   </resource>
   <enabled>true</enabled>
   <attribution>

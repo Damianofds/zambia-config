@@ -3,14 +3,19 @@
   <id>LayerInfoImpl-487afa5b:140e7eb0cc5:-7ff7</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    <id>StyleInfoImpl-38f2d411:1402aac94d3:-7e40</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--7408c9ca:140c999a6c6:-7fff</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl-487afa5b:140e7eb0cc5:-7ff8</id>
   </resource>
   <enabled>true</enabled>
   <advertised>true</advertised>
-  <queryable>true</queryable>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

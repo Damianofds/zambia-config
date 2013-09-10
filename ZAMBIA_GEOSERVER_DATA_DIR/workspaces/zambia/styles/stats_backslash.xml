@@ -1,11 +1,11 @@
 <style>
-  <id>StyleInfoImpl-130d2a1c:140e8e98c96:-7f5f</id>
-  <name>Provinces_Boundaries_simple</name>
+  <id>StyleInfoImpl-3dead5d9:14102c93c40:-8000</id>
+  <name>stats_backslash</name>
   <workspace>
     <id>WorkspaceInfoImpl-26d83288:1401bfa07e9:-8000</id>
   </workspace>
   <sldVersion>
     <version>1.0.0</version>
   </sldVersion>
-  <filename>Provinces_Boundaries_simple.sld</filename>
+  <filename>stats.sld</filename>
 </style>

@@ -1,15 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--1c1b0a53:1402b113734:-7dc0</id>
+  <id>FeatureTypeInfoImpl--7c06cc62:141031677f5:-7c82</id>
   <name>Country_Boundaries</name>
-  <nativeName>BoundariesLine</nativeName>
+  <nativeName>Country_Boundaries</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-26d83288:1401bfa07e9:-7fff</id>
   </namespace>
-  <title>Country Boundaries</title>
-  <abstract>Zambia Country Boundaries</abstract>
+  <title>Country_Boundaries</title>
   <keywords>
-    <string>BoundariesLine</string>
     <string>features</string>
+    <string>Country_Boundaries</string>
   </keywords>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
@@ -34,7 +33,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
