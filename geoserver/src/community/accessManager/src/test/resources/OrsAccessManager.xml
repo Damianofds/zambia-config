@@ -1,0 +1,15 @@
+<config>
+  <rules>
+  <rule>
+      <workspace>topp</workspace><!-- NOTE this can be * only if layer is * -->
+      <layer>*</layer>
+      <accessLimitBuilder>adminAccessLimitBuilder</accessLimitBuilder>
+    </rule>
+    <rule>
+      <workspace>topp</workspace><!-- NOTE this can be * only if layer is * -->
+      <layer>HN+24</layer>
+      <accessLimitBuilder>adminAccessLimitBuilder</accessLimitBuilder>
+    </rule>
+  </rules>
+  <defaultAccessBuilder>OrsDefaultAccessLimitBuilder</defaultAccessBuilder>
+</config>
