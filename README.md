@@ -1,9 +1,9 @@
-nfms-zambia-config
+zambia-config
 ==================
 
-Custom configurations for the Zambia NFMS 
+Custom configurations for the Zambia SLMS 
 
-This repo hold all the configurations and spread files did for the Zambia NFMS Installation.
+This repo hold all the configurations and spread files did for the Zambia SLMS Installation.
 
 Basically it store:
 
